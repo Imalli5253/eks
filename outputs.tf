@@ -57,3 +57,7 @@ output "config_map_aws_auth" {
 output "kubeconfig" {
   value = local.kubeconfig
 }
+
+output "myapp-repository-URL" {
+  value = aws_ecr_repository.myapp.repository_url
+}
