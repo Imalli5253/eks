@@ -1,3 +1,3 @@
 resource "aws_ecr_repository" "myapp" {
-  name = "myReg"
+  name = "msc1"
 }
